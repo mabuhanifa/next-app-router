@@ -7,6 +7,9 @@ export default function page() {
             <Link href={"/"}>
                 Go to Home
             </Link>
+            <Link href={"/users"}>
+                Go to Users
+            </Link>
         </div>
     )
 }
