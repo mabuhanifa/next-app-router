@@ -1,6 +1,12 @@
+import Link from "next/link";
 
 export default function page() {
     return (
-        <div>page</div>
+        <div className="p-40">
+            page
+            <Link href={"/"}>
+                Go to Home
+            </Link>
+        </div>
     )
 }
