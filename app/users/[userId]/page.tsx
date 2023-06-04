@@ -1,3 +1,4 @@
+import UserPosts from "@/components/UserPosts"
 import getUser from "@/lib/getUser"
 import getUserPost from "@/lib/getUserPost"
 import { Suspense } from "react"
@@ -20,7 +21,7 @@ export default async function UserPage({ params: { userId } }: Params) {
             <h2>{user.name}</h2>
             <br />
             <Suspense fallback={<p>Loading...</p>}>
-
+                { /* @ts-expect-error */}
                 <UserPosts promise={userPostsData} />
             </Suspense>
 
