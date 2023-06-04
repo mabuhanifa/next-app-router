@@ -10,7 +10,5 @@ export default async function UserPosts({ promise }: Props) {
             {post.body}
         </p>
     </article>)
-    return (
-        <div>UserPosts</div>
-    )
+    return content;
 }
