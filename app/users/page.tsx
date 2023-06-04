@@ -15,7 +15,7 @@ export default async function Page() {
     const content = (
         <section>
             <h2>
-                <Link href={'/'}>
+                <Link href={'/'} className="text-red-600">
                     Back to Home
                 </Link>
             </h2>
