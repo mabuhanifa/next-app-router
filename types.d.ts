@@ -1,4 +1,4 @@
-export type User = {
+type User = {
   id: 1;
   name: "Leanne Graham";
   username: "Bret";
@@ -20,4 +20,11 @@ export type User = {
     catchPhrase: "Multi-layered client-server neural-net";
     bs: "harness real-time e-markets";
   };
+};
+
+type Post = {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
 };
