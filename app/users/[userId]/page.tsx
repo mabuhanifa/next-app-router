@@ -1,5 +1,5 @@
 import getUser from "@/lib/getUser"
-import getUserPosts from "@/lib/getUserPost"
+import getUserPosts from "@/lib/getUserPosts"
 import type { Metadata } from 'next'
 import { Suspense } from "react"
 import UserPosts from "./components/UserPosts"
